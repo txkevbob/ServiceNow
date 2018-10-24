@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Regulatory Compliance">f965f89edbc9a7407efd546fdf96199c</application>
+        <filter/>
+        <name>Regulatory Compliance Table</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_reg_comp.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-11 15:18:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b965f89edbc9a7407efd546fdf96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Regulatory Compliance Table</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+        <sys_update_name>sys_ui_module_b965f89edbc9a7407efd546fdf96199e</sys_update_name>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-11 15:18:35</sys_updated_on>
+        <table>x_snc_reg_comp_regulatory_compliance_table</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Regulatory Compliance</name>
+        <order/>
+        <roles>x_snc_reg_comp.user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-11 15:18:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6065b89edbc9a7407efd546fdf9619b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Regulatory Compliance</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+        <sys_update_name>sys_app_application_6065b89edbc9a7407efd546fdf9619b2</sys_update_name>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-11 15:18:31</sys_updated_on>
+        <title>Regulatory Compliance</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

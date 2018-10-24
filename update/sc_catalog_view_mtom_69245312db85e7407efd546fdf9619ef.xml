@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="Regulatory Compliance Catalog">60049fdedb45e7407efd546fdf9619aa</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-12 02:52:09</sys_created_on>
+        <sys_id>69245312db85e7407efd546fdf9619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Regulatory Compliance Catalog.catalog_regulatory_compliance_catalog</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_regulatory_compliance_catalog">25245312db85e7407efd546fdf9619ee</sys_portal_page>
+        <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_69245312db85e7407efd546fdf9619ef</sys_update_name>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-12 02:52:09</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

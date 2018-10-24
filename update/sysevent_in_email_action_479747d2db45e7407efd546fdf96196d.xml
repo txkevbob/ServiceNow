@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description>This inbound email action is triggered when an email is sent to ServiceNow and:&#13;
+&#13;
+1. The email is a reply.&#13;
+2. The email being replied to was sent by ServiceNow due to an update or creation of an Incident.&#13;
+&#13;
+&#13;
+This inbound email action can update the following fields on an Incident:&#13;
+&#13;
+assigned_to&#13;
+priority&#13;
+category&#13;
+short_description&#13;
+&#13;
+In addition to being able to explicitly set the values of the above fields within the email, the whole email is added to the Incident as a comment.&#13;
+&#13;
+&#13;
+Example reply email: this reply will update comments for the Incident with "Our engineers are on this - should see resolution in a couple hours.", assign the Incident to David Loo, and set priority to "2".&#13;
+&#13;
+-----&#13;
+&#13;
+From: 	Fred Luddy &lt;fred.luddy@example.com&gt;&#13;
+Subject: 	Re: Incident INC0010008 has been assigned to you&#13;
+Date: 	June 10, 2013 10:47:00 AM PDT&#13;
+To: 	        ServiceNow&#13;
+&#13;
+Our engineers are on this - should see resolution in a couple hours.&#13;
+&#13;
+priority: 2&#13;
+assigned_to: david.loo&#13;
+&#13;
+On Jun 10, 2013, at 10:43 AM, IT Service Desk wrote:&#13;
+&#13;
+Short Description: A new occurrence of network outage&#13;
+Click here to view Incident: INC0010008&#13;
+Severity: 3 - Low&#13;
+Priority: 4 - Low&#13;
+Category: Inquiry / Help&#13;
+Comments:&#13;
+ &#13;
+Ref:MSG0000034&#13;
+&#13;
+-----</description>
+        <event_name>email.read</event_name>
+        <filter_condition/>
+        <from/>
+        <name>Update Regulatory Request</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[gs.include('validators');
+
+if (current.getTableName() == "x_snc_reg_comp_regulatory_compliance_table") {
+	current.comments = "reply from: " + email.origemail + "\n\n" + email.body_text;
+	
+	if (gs.hasRole("itil")) {
+		if (email.body.assign != undefined)
+			current.assigned_to = email.body.assign;
+		
+		if (email.body.priority != undefined && isNumeric(email.body.priority))
+			current.priority = email.body.priority;
+	}
+	
+	current.update();
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-12 01:57:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>479747d2db45e7407efd546fdf96196d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Update Regulatory Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+        <sys_update_name>sysevent_in_email_action_479747d2db45e7407efd546fdf96196d</sys_update_name>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-12 01:59:03</sys_updated_on>
+        <table>x_snc_reg_comp_regulatory_compliance_table</table>
+        <template/>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

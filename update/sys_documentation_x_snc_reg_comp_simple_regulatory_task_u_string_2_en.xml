@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_string_2" label="Instructions" language="en" table="x_snc_reg_comp_simple_regulatory_task">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_string_2</element>
+            <help/>
+            <hint/>
+            <label>Instructions</label>
+            <language>en</language>
+            <name>x_snc_reg_comp_simple_regulatory_task</name>
+            <plural>Instructions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-11 23:03:41</sys_created_on>
+            <sys_id>f2df5ad6db81e7407efd546fdf96199a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Instructions</sys_name>
+            <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_reg_comp_simple_regulatory_task_u_string_2_en</sys_update_name>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-11 23:03:41</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

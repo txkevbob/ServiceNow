@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_glide_date_time_1</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-12 00:27:10</sys_created_on>
+        <sys_id>66e27a1edbc1e7407efd546fdf9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_glide_date_time_1</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_66e27a1edbc1e7407efd546fdf9619a0</sys_update_name>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-12 00:27:10</sys_updated_on>
+        <table>x_snc_reg_comp_regulatory_compliance_table</table>
+        <ui_policy display_value="Make Date Delivered Mandatory">edc2b61edbc1e7407efd546fdf96191e</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

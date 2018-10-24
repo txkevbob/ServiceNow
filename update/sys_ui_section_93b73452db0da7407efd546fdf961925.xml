@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="93b73452db0da7407efd546fdf961925" sys_domain="global" table="x_snc_reg_comp_regulatory_compliance_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>7dcb83a2db452b407efd546fdf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_type</element>
+            <position>1</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>fdcb83a2db452b407efd546fdf961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>71cb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reg_contact</element>
+            <position>3</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>f1cb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_legal_contact</element>
+            <position>4</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>75cb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_list_4</element>
+            <position>5</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>f5cb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>79cb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>f9cb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>7dcb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_time_3</element>
+            <position>9</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>fdcb83a2db452b407efd546fdf961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>10</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>71cb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>11</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>f1cb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_time_1</element>
+            <position>12</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>75cb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_1</element>
+            <position>13</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>f5cb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>14</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>79cb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inline_checklist_macro</element>
+            <position>15</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>f9cb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Checklist">ade76621c3200200e280dccdf3d3ae9a</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>16</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>bdcb83a2db452b407efd546fdf96194a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>17</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>31cb83a2db452b407efd546fdf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_1</element>
+            <position>18</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>b1cb83a2db452b407efd546fdf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <position>19</position>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-12 20:54:04</sys_created_on>
+            <sys_id>35cb83a2db452b407efd546fdf96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_reg_comp_regulatory_compliance_table" sys_domain="global" view="Default view">93b73452db0da7407efd546fdf961925</sys_ui_section>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-12 20:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_reg_comp_regulatory_compliance_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-11 15:28:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93b73452db0da7407efd546fdf961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_reg_comp_regulatory_compliance_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+            <sys_update_name>sys_ui_section_93b73452db0da7407efd546fdf961925</sys_update_name>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-11 15:28:48</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

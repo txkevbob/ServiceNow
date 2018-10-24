@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Simple Regulatory Task" max_length="40" name="x_snc_reg_comp_simple_regulatory_task" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Instructions" max_length="40" name="u_string_2" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

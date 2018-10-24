@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_3" table="x_snc_reg_comp_regulatory_compliance_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_3</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 1</label>
+            <language>en</language>
+            <name>x_snc_reg_comp_regulatory_compliance_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-11 18:26:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08806ddedb85ef805773d65fdf9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-11 18:26:53</sys_updated_on>
+            <value>Choice 1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_3</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 2</label>
+            <language>en</language>
+            <name>x_snc_reg_comp_regulatory_compliance_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-11 18:26:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88806ddedb85ef805773d65fdf9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-11 18:26:53</sys_updated_on>
+            <value>Choice 2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_3</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_snc_reg_comp_regulatory_compliance_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-11 18:26:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4880addedb85ef805773d65fdf961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-11 18:26:53</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_3</element>
+            <name>x_snc_reg_comp_regulatory_compliance_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kevin.kinnamon</sys_created_by>
+            <sys_created_on>2018-10-11 18:26:53</sys_created_on>
+            <sys_id>44806ddedb85ef805773d65fdf9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_3</sys_name>
+            <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+            <sys_update_name>sys_choice_x_snc_reg_comp_regulatory_compliance_table_u_choice_3</sys_update_name>
+            <sys_updated_by>kevin.kinnamon</sys_updated_by>
+            <sys_updated_on>2018-10-11 18:26:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

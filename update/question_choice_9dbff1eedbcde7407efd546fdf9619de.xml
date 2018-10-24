@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="Frequency">7f4fb9aedbcde7407efd546fdf961984</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-12 15:21:59</sys_created_on>
+        <sys_id>9dbff1eedbcde7407efd546fdf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quarterly</sys_name>
+        <sys_package display_value="Regulatory Compliance" source="x_snc_reg_comp">2c65f49edbc9a7407efd546fdf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Regulatory Compliance">2c65f49edbc9a7407efd546fdf96193b</sys_scope>
+        <sys_update_name>question_choice_9dbff1eedbcde7407efd546fdf9619de</sys_update_name>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-12 15:21:59</sys_updated_on>
+        <text>Quarterly</text>
+        <value>2</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9dbff1eedbcde7407efd546fdf9619de"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>9dbff1eedbcde7407efd546fdf9619de</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-12 15:21:59</sys_created_on>
+        <sys_id>e9cff1eedbcde7407efd546fdf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-12 15:21:59</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>9dbff1eedbcde7407efd546fdf9619de</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>kevin.kinnamon</sys_created_by>
+        <sys_created_on>2018-10-12 15:21:59</sys_created_on>
+        <sys_id>a1cff1eedbcde7407efd546fdf9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>kevin.kinnamon</sys_updated_by>
+        <sys_updated_on>2018-10-12 15:21:59</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

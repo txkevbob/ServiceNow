@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" extends="task" label="Regulatory Compliance Table" max_length="40" name="x_snc_reg_comp_regulatory_compliance_table" sizeclass="20" type="collection">
+        <element label="Required Documents Attached?" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Frequency" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Monthly" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Quarterly" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Annually" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Date" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element label="Date Delivered" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Start Date" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_2" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Assignment Team" max_length="1024" name="u_glide_list_4" reference="sys_user" type="glide_list"/>
+        <element label="Legal Contact" max_length="32" name="u_legal_contact" reference="sys_user" type="reference"/>
+        <element label="Regulatory Contact" max_length="32" name="u_reg_contact" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request Type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non-Dated Compliance Request" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Discovery Request" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Recurring Compliance Request" sequence="2" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>
